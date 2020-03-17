@@ -1,0 +1,17 @@
+server:
+    port: 8081
+
+facility-api-url: http://localhost:8080/api1
+
+
+
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5432/postgres
+        username: postgres
+        password: spyrosoft
+    application:
+        name: person-service
+
+
+
